@@ -5,7 +5,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+.main-title {
+	font-family: 'Cinzel', serif;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2269,7 +2271,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 6px;
+		border-radius: 50%;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2277,7 +2279,7 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 6px;
+			border-radius: 50%;
 			display: block;
 		}
 
@@ -2323,7 +2325,7 @@ input, select, textarea {
 
 		.image.phone {
 			box-shadow: none;
-			border-radius: 0;
+			border-radius: 50%;
 			margin: 0 0 3em 0;
 			width: 13em;
 		}
